@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e7;
+}
+header {
+    background-color: #eabf6b; /* Saffron-inspired */
+    color: #3c2f2f;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background-color: #8c5523; /* Earthy tone */
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #eabf6b;
+    color: #3c2f2f;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
