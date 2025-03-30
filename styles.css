@@ -2,21 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff8e7;
+    background-color: #ffffff; /* Clean white background */
+    color: #006400; /* Dark green text */
 }
 header {
-    background-color: #eabf6b; /* Saffron-inspired */
-    color: #3c2f2f;
+    background-color: #228b22; /* Forest green for header */
+    color: white; /* White text for contrast */
     text-align: center;
     padding: 20px;
 }
 nav {
-    background-color: #8c5523; /* Earthy tone */
+    background-color: #32cd32; /* Lime green for nav bar */
     padding: 10px;
     text-align: center;
 }
 nav a {
-    color: white;
+    color: white; /* White links in nav */
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
@@ -25,9 +26,13 @@ main {
     padding: 20px;
     text-align: center;
 }
+main a {
+    color: #006400; /* Dark green for links in main content */
+    text-decoration: underline;
+}
 footer {
-    background-color: #eabf6b;
-    color: #3c2f2f;
+    background-color: #228b22; /* Forest green for footer */
+    color: white; /* White text */
     text-align: center;
     padding: 10px;
     position: fixed;
